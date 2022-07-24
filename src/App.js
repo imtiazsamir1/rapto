@@ -1,21 +1,17 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Explore from "./Components/Home/Explore/Explore";
+import Footer from "./Components/Home/Footer";
+import Hero from "./Components/Home/Hero";
+
+import Nav from "./Components/Home/Nav";
 
 function App() {
   return (
     <div className="App">
-      <button class="btn">Button</button>
-      <button class="btn btn-primary">Button</button>
-      <button class="btn btn-secondary">Button</button>
-      <button class="btn btn-accent">Button</button>
-      <button class="btn btn-ghost">Button</button>
-      <button class="btn btn-link">Button</button>
-      <button class="btn">Button</button>
-      <button class="btn btn-primary">Button</button>
-      <button class="btn btn-secondary">Button</button>
-      <button class="btn btn-accent">Button</button>
-      <button class="btn btn-ghost">Button</button>
-      <button class="btn btn-link">Button</button>
+      <Nav></Nav>
+      <Hero></Hero>
+      <Explore></Explore>
+      <Footer></Footer>
     </div>
   );
 }
