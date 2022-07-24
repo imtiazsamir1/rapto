@@ -6,8 +6,7 @@ const Hero = () => {
       <div
         class="hero min-h-screen"
         style={{
-          backgroundImage:
-            "url(https://img.freepik.com/free-photo/hands-holding-engagement-ring_23-2149488080.jpg?t=st=1658669211~exp=1658669811~hmac=f9038dc924de1a31702defb15b7dac6d6273bda0f3b355fc1e6906284c4609f3&w=1380)",
+          backgroundImage: "url(https://i.ibb.co/my2zpbk/banner.png)",
         }}
       >
         <div class="hero-overlay bg-opacity-60"></div>

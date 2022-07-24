@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../../img/banner.png";
+import img from "../../../img/hands-holding-engagement-ring_23-2149488080.webp";
 
 const Explore = () => {
   return (
